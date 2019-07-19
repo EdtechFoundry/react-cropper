@@ -22,6 +22,10 @@ npm install --save react-cropper
 You need `cropper.css` in your project which is from [cropperjs](https://www.npmjs.com/package/cropperjs).
 Since this project have dependency on [cropperjs](https://www.npmjs.com/package/cropperjs), it located in `/node_modules/react-cropper/node_modules/cropperjs/dist/cropper.css` or `node_modules/cropperjs/dist/cropper.css` for npm version `3.0.0` later
 
+# Publishing to NPM
+
+Just publish as you would do with any other package. Bump the version in package.json and run `npm publish`
+
 # Changelog
 
 
@@ -117,8 +121,8 @@ Except previous mentioned options, other options don't take effect after compone
 ```js
 <Cropper
   src='http://fengyuanchen.github.io/cropper/img/picture.jpg'
-  aspectRatio={16 / 9} 
-  guides={false} 
+  aspectRatio={16 / 9}
+  guides={false}
   crop={this._crop} />
 ```
 
